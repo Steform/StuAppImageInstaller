@@ -44,7 +44,7 @@ Create a JSON configuration file in the `appjson` directory. Example structure:
     "ICON_PATH": "/usr/share/icons/hicolor/scalable/apps/yourapp.svg",
     "API_URL": "https://api.example.com/latest",
     "UPDATER_SCRIPT": "/opt/yourapp/updater.sh",
-    "FOCUS_CMD_PATTERN": "yourapp",
+    "CMD_PATTERN": "yourapp",
     "DOWNLOAD_METHOD": "json",
     "DOWNLOAD_URL_KEY": "download_url",
     "ICON_SVG": "<svg>...</svg>",
@@ -64,7 +64,7 @@ Create a JSON configuration file in the `appjson` directory. Example structure:
 | ICON_PATH | Path to application icon |
 | API_URL | URL for version checking |
 | UPDATER_SCRIPT | Path to updater script |
-| FOCUS_CMD_PATTERN | Pattern to identify running app |
+| CMD_PATTERN | Pattern to identify running app |
 | DOWNLOAD_METHOD | Method to get download URL (json/redirect) |
 | DOWNLOAD_URL_KEY | JSON key for download URL |
 | ICON_SVG | SVG content for app icon |

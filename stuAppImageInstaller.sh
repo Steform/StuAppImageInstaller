@@ -84,7 +84,7 @@ load_config() {
     ICON_PATH=$(jq -r '.ICON_PATH' "$CONFIG_FILE")
     API_URL=$(jq -r '.API_URL' "$CONFIG_FILE")
     UPDATER_SCRIPT=$(jq -r '.UPDATER_SCRIPT' "$CONFIG_FILE")
-    FOCUS_CMD_PATTERN=$(jq -r '.FOCUS_CMD_PATTERN' "$CONFIG_FILE")
+    CMD_PATTERN=$(jq -r '.CMD_PATTERN' "$CONFIG_FILE")
     DOWNLOAD_METHOD=$(jq -r '.DOWNLOAD_METHOD' "$CONFIG_FILE")
     DOWNLOAD_URL_KEY=$(jq -r '.DOWNLOAD_URL_KEY' "$CONFIG_FILE")
     ICON_SVG=$(jq -r '.ICON_SVG' "$CONFIG_FILE")
@@ -325,8 +325,8 @@ copy_self_to_updater() {
 # Output: None
 # Returns: 0 if application is running, 1 if not running
 is_running() {
-    # Use pgrep to search for processes matching the focus command pattern
-    pgrep -f "$FOCUS_CMD_PATTERN" >/dev/null
+    # Use pgrep to search for processes matching the command pattern
+    pgrep -f "$CMD_PATTERN" >/dev/null
 }
 
 # Function: launch_app
