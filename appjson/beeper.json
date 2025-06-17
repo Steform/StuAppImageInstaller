@@ -1,0 +1,15 @@
+{
+  "APP_NAME": "Beeper",
+  "INSTALL_DIR": "/opt/beeper",
+  "APPIMAGE_NAME": "Beeper.AppImage",
+  "DESKTOP_FILE": "/usr/share/applications/beeper.desktop",
+  "UPDATER_DESKTOP_FILE": "/usr/share/applications/beeper-updater.desktop",
+  "ICON_PATH": "/opt/beeper/beeper.svg",
+  "API_URL": "https://api.beeper.com/desktop/download/linux/x64/stable/com.automattic.beeper.desktop",
+  "UPDATER_SCRIPT": "/opt/beeper/updater.sh",
+  "FOCUS_CMD_PATTERN": "beepertexts --no-sandbox",
+  "DOWNLOAD_URL_KEY": "",
+  "DOWNLOAD_METHOD": "redirect",
+  "ICON_SVG": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg data-name=\"logosandtypes com\" viewBox=\"0 0 150 150\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<style>.cls-1 { fill: none; } .cls-2 { fill: #6a4be5; fill-rule: evenodd; }</style>\n</defs>\n<path class=\"cls-1\" d=\"M0,0H150V150H0V0Z\"/>\n<path class=\"cls-2\" d=\"M23.33,48.62c0-19.34,15.6-35.25,35.33-35.25h29.21c19.51,0,35.33,15.74,35.33,35.25-.02,10.51-4.61,19.56-11,25.58l-6.69,6.67c9.75,5.69,17.61,14.61,17.61,26.71,0,18.12-14.69,31.12-32.8,31.12H40.96v-59.54c-10.43-6.09-17.62-17.48-17.62-30.53ZM58.66,23.16c-14.28,0-25.53,11.47-25.53,25.46s11.26,25.46,25.53,25.46h12.16l-6.76,34.21,41.27-41.05c4.73-4.41,8.09-11.07,8.09-18.61,0-14.2-11.63-25.61-25.53-25.46h-29.21Z\"/>\n</svg>",
+  "UPDATER_ICON_SVG" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 150 150\" xmlns:v=\"https://vecta.io/nano\"><path d=\"M23.33 48.62c0-19.34 15.6-35.25 35.33-35.25h29.21c19.51 0 35.33 15.74 35.33 35.25-.02 10.51-4.61 19.56-11 25.58l-6.69 6.67c9.75 5.69 17.61 14.61 17.61 26.71 0 18.12-14.69 31.12-32.8 31.12H40.96V79.16c-10.43-6.09-17.62-17.48-17.62-30.53zm35.33-25.46c-14.28 0-25.53 11.47-25.53 25.46s11.26 25.46 25.53 25.46h12.16l-6.76 34.21 41.27-41.05c4.73-4.41 8.09-11.07 8.09-18.61 0-14.2-11.63-25.61-25.53-25.46H58.68z\" fill=\"#6a4be5\" fill-rule=\"evenodd\"/><path d=\"M119.615 89.424a30 30 0 1 0 0 60 30 30 0 1 0 0-60z\" fill=\"#3daee9\"/><path d=\"M119.615 93.71v4.286a21.429 21.429 0 0 0 0 42.857 21.429 21.429 0 0 0 21.429-21.429h-8.571a12.857 12.857 0 1 1-25.714 0 12.857 12.857 0 0 1 12.857-12.857v4.286l12.857-8.571z\" fill=\"#fff\"/></svg>"
+}

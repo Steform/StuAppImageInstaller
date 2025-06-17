@@ -1,0 +1,15 @@
+{
+  "APP_NAME": "Cursor",
+  "INSTALL_DIR": "/opt/cursor",
+  "APPIMAGE_NAME": "Cursor.AppImage",
+  "DESKTOP_FILE": "/usr/share/applications/cursor.desktop",
+  "UPDATER_DESKTOP_FILE": "/usr/share/applications/cursor-updater.desktop",
+  "ICON_PATH": "/opt/cursor/cursor.svg",
+  "API_URL": "https://www.cursor.com/api/download?platform=linux-x64&releaseTrack=stable",
+  "UPDATER_SCRIPT": "/opt/cursor/updater.sh",
+  "FOCUS_CMD_PATTERN": "cursor --no-sandbox",
+  "DOWNLOAD_METHOD": "json",
+  "DOWNLOAD_URL_KEY": "downloadUrl",
+  "ICON_SVG": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" xmlns:v=\"https://vecta.io/nano\"><path d=\"M11.925 24l10.425-6-10.425-6L1.5 18l10.425 6z\" fill=\"url(#A)\"/><path d=\"M22.35 18V6L11.925 0v12l10.425 6z\" fill=\"url(#B)\"/><path d=\"M11.925 0L1.5 6v12l10.425-6V0z\" fill=\"url(#C)\"/><path d=\"M22.35 6L11.925 24V12L22.35 6z\" fill=\"#555\"/><path d=\"M22.35 6l-10.425 6L1.5 6h20.85z\"/><defs><linearGradient gradientUnits=\"userSpaceOnUse\" id=\"A\" x1=\"11.925\" x2=\"11.925\" y1=\"12\" y2=\"24\"><stop offset=\".16\" stop-opacity=\".39\"/><stop offset=\".658\" stop-opacity=\".8\"/></linearGradient><linearGradient gradientUnits=\"userSpaceOnUse\" id=\"B\" x1=\"22.35\" x2=\"11.925\" y1=\"6.037\" y2=\"12.15\"><stop offset=\".182\" stop-opacity=\".31\"/><stop offset=\".715\" stop-opacity=\"0\"/></linearGradient><linearGradient gradientUnits=\"userSpaceOnUse\" id=\"C\" x1=\"11.925\" x2=\"1.5\" y1=\"0\" y2=\"18\"><stop stop-opacity=\".6\"/><stop offset=\".667\" stop-opacity=\".22\"/></linearGradient></defs></svg>",
+  "UPDATER_ICON_SVG" : "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" xmlns:v=\"https://vecta.io/nano\"><path d=\"M11.925 24l10.425-6-10.425-6L1.5 18l10.425 6z\" fill=\"url(#A)\"/><path d=\"M22.35 18V6L11.925 0v12l10.425 6z\" fill=\"url(#B)\"/><path d=\"M11.925 0L1.5 6v12l10.425-6V0z\" fill=\"url(#C)\"/><path d=\"M22.35 6L11.925 24V12L22.35 6z\" fill=\"#555\"/><path d=\"M22.35 6l-10.425 6L1.5 6h20.85z\"/><defs><linearGradient gradientUnits=\"userSpaceOnUse\" id=\"A\" x1=\"11.925\" x2=\"11.925\" y1=\"12\" y2=\"24\"><stop offset=\".16\" stop-opacity=\".39\"/><stop offset=\".658\" stop-opacity=\".8\"/></linearGradient><linearGradient gradientUnits=\"userSpaceOnUse\" id=\"B\" x1=\"22.35\" x2=\"11.925\" y1=\"6.037\" y2=\"12.15\"><stop offset=\".182\" stop-opacity=\".31\"/><stop offset=\".715\" stop-opacity=\"0\"/></linearGradient><linearGradient gradientUnits=\"userSpaceOnUse\" id=\"C\" x1=\"11.925\" x2=\"1.5\" y1=\"0\" y2=\"18\"><stop stop-opacity=\".6\"/><stop offset=\".667\" stop-opacity=\".22\"/></linearGradient></defs><path d=\"M18.994 13.979a5 5 0 1 0 0 10 5 5 0 1 0 0-10z\" fill=\"#3daee9\"/><path d=\"M18.994 14.693v.714a3.571 3.571 0 0 0 0 7.143 3.571 3.571 0 0 0 3.571-3.571h-1.429a2.143 2.143 0 0 1-4.286 0 2.143 2.143 0 0 1 2.143-2.143v.714l2.143-1.429z\" fill=\"#fff\"/></svg>"
+}
